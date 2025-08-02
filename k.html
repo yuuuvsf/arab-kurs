@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arab tili kursi</title>
+    <link rel="stylesheet" href="in.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Online Arab Tili Kursi</h1>
+      <p>O'zbek tilida, boshlovchilar uchun</p>
+    </header>
+
+    <nav>
+      <a href="#kurslar">Kurslar</a>
+      <a href="#ro_yxat" id="openModalBtn">Ro'yxatdan o'tish</a>
+      <a href="#boglanish">Bog'lanish</a>
+    </nav>
+
+    <div class="container" id="kurslar">
+      <h2>Kurslarimiz</h2>
+      <div class="course-card">
+        <h3>1-daraja: Boshlovchilar uchun Arab tili</h3>
+        <p>Harflar, talaffuz, o'qish va yozishni o'rganamiz.</p>
+      </div>
+      <div class="course-card">
+        <h3>2-daraja: Nahv va sarfga kirish</h3>
+        <p>Grammatik qoidalar, gap tuzilmalari va tarjima.</p>
+      </div>
+      <div class="cta">
+        <p><strong>Kursga yoziling va bilimga qadam qo'ying!</strong></p>
+        <p><a href="#" id="openModalBtn2">>> Hozir ro'yxatdan o'ting</a></p>
+      </div>
+    </div>
+
+    <div class="container" id="ro_yxat">
+      <h2>Ro'yxatdan o'tish</h2>
+      <p>
+        Telegram orqali biz bilan bog'laning:
+        <a href="https://t.me/wcusss" target="_blank">Biz bilan bog'laning</a>
+      </p>
+    </div>
+
+    <div class="container" id="boglanish">
+      <h2>Bog'lanish</h2>
+      <p>Qo'shimcha savollar uchun: rahimovyusuf0411@gmail.com</p>
+    </div>
+
+    <!-- Modal oynasi -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Ro'yxatdan o'tish</h2>
+        <form
+          id="registration-form"
+          action="https://formsubmit.co/your-email@example.com"
+          method="POST"
+          target="_blank"
+        >
+          <input type="text" name="name" placeholder="Ismingiz" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email manzilingiz"
+            required
+          />
+          <button type="submit">Ro'yxatdan o'tish</button>
+        </form>
+        <p
+          id="thankYouMsg"
+          style="
+            color: green;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+            display: none;
+          "
+        >
+          Ro'yxatdan o'tganingiz uchun rahmat!
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
