@@ -13,5 +13,5 @@ Bu sayt O'zbek tilida boshlovchilar uchun arab tilini o'rganish kursini taklif q
 - GitHub Pages orqali host qilingan
 
 ## 🌐 Saytga kirish:
-[https://yourusername.github.io/arab-tili-kurs/](https://yourusername.github.io/arab-tili-kurs/)
+[https://yourusername.github.io/arab-tili-kurs/](https://yuuuvsf.github.io/arab-tili-kurs/)
 
